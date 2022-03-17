@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>How about the</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search">
+          <button class="btn btn-outline-secondary bg-primary searchButton" type="button"
+          id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+          
+        </div>
+        <div class="weather loading">
+          <h2 class="city">Weather in Dallas</h2>
+          <h1 class="temp">110°F</h1>
+          <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="description">Hot</div>
+          <div class="wind">Wind speed: 0 MPH</div>
+           <div class="humidity">Humidity: 100%</div>
+        </div>
+      </div>
+
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+</body>
+</html>
+
+
+<!-- psuedo code -->
+<!-- create form inputs for user you can probably use bootstrap in the html for that-->
+<!-- get current and future conditons for a city when user searches -->
+<!-- need weather conditions:  temperature, wind speed, humidity -->
+<!-- create search input to toggle through cities -->
