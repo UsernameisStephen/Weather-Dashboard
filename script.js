@@ -12,7 +12,7 @@ searchButton.click(function () {
   for (let i = 0; i < localStorage.length; i++) {
 
     let city = localStorage.getItem(i);
-    // console.log(localStorage.getItem("City"));
+   
     let cityName = $(".list-group").addClass("list-group-item");
   
     cityName.append("<li>" + city + "</li>");
@@ -56,8 +56,6 @@ searchButton.click(function () {
 
         //method to pull the uv index
           let urlUV = `https://api.openweathermap.org/data/2.5/uvi?appid=b8ecb570e32c2e5042581abd004b71bb&lat=${response.coord.lat}&lon=${response.coord.lon}`;
-
-          // UV Index
           $.ajax({
               url: urlUV,
               method: "GET"
@@ -66,12 +64,9 @@ searchButton.click(function () {
               let currentUV = currentTemp.append("<p>" + "UV Index: " + response.value + "</p>").addClass("card-text");
               currentUV.addClass("UV");
               currentTemp.append(currentUV);
-              // currentUV.append("UV Index: " + response.value);
           });
 
       });
-
-      // using ajax to update the page and get data after the page reloads
 
       $.ajax({
           url: urlfiveDayForecast,
@@ -96,21 +91,5 @@ searchButton.click(function () {
   }
 });
 
-     
-//           ) //call back function
-//       .then(() => {
-//         if () {
-//           alert("");
-//           throw new Error("");
-//         }
-//         return response.json();
-//       })
-//       .then((data)) => this.showWeather(data));
-//     },     
-// //going to need to loop something 
-// showWeather: function (data) {
-//   let {name} = data;
-
-// }
 
 
