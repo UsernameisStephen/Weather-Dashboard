@@ -7,5 +7,8 @@ Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) 
 
 # Screenshot
 
+![Uploading image.png…]()
+
+
 # Final link 
 https://usernameisstephen.github.io/Weather-Dashboard/
