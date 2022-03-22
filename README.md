@@ -9,7 +9,8 @@ Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) 
 
 ![image](https://user-images.githubusercontent.com/100049940/159593503-b4e8de69-743c-47f6-9d86-208eaec78831.png)
 
-![image](https://user-images.githubusercontent.com/100049940/159593825-192ad7ce-3d1b-4e3b-bb41-9d6642c5b21d.png)
+![image](https://user-images.githubusercontent.com/100049940/159593891-49508b17-9167-4dbd-a9ad-657c13ff7742.png)
+
 
 
 
