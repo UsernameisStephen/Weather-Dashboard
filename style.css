@@ -2,9 +2,40 @@ body{
     font-family: 'Public Sans', sans-serif;   
     color: rgb(206, 240, 253);
     background-image: url(https://wallpaperaccess.com/full/2843775.jpg);
+}
 
-}
-h6 {
-    font-family: 'Public Sans', sans-serif; 
-    color: rgb(206, 240, 253);
-}
+ul{
+    list-style: none;
+    
+    }
+
+
+li {
+        border-bottom: 1px solid rgb(0, 0, 0);
+        text-align: left;
+        padding-left: 10px;
+    }
+
+.card-title {
+        font-size: 22px;
+    }
+
+.fiveDayColor {
+        padding: 20px;
+        background-color: #1E90FF;
+        color: white;
+        float: left;
+        margin: 10px;
+        border: 1px solid lightgray;
+    
+    }
+
+
+
+    @media only screen and (max-width: 768px) {
+        .card {
+          width: 100%;
+        }
+      }
+
+      
